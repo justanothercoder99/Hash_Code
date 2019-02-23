@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(void){
-	int r = 0, R = 0, c = 0, C = 0, L = 0, h = 1, H = 0, noOfSlice = 0, noOfT = 0, noOfM = 0, cbeg = 0, flag = 0;
+	int r = 0, R = 0, c = 0, C = 0, L = 0, h = 1, H = 0, noOfSlice = 0, noOfT = 0, noOfM = 0, cbeg = 0, flag = 1;
 	char line[50];
 
 	ifstream ifpizza("c_medium.in");
